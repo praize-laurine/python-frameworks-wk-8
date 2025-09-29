@@ -1,9 +1,8 @@
-# visualization.py
-import matplotlib.pyplot as plt
-import seaborn as sns
-from wordcloud import WordCloud
-import pandas as pd
-import numpy as np
+import matplotlib.pyplot as plt # type: ignore
+import seaborn as sns # type: ignore
+from wordcloud import WordCloud # type: ignore
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
 
 def set_plot_style():
     """Set consistent plotting style"""

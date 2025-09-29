@@ -1,6 +1,5 @@
-# data_cleaning.py
-import pandas as pd
-import numpy as np
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
 from datetime import datetime
 
 def clean_data(df):
